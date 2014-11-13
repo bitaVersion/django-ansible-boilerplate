@@ -1,0 +1,29 @@
+# db sqlite hence no worries
+db_name: glucosetracker
+
+
+# Gunicorn settings.
+gunicorn_num_workers: 1
+
+# Setting this to 1 will restart the Gunicorn process each time
+# you make a request, basically reloading the code. Very handy
+# when developing. Set to 0 for unlimited requests (default).
+gunicorn_max_requests: 1
+
+
+# Nginx settings.
+nginx_server_name: 2.2.2.2
+
+# Application settings.
+django_settings_file: settings.local
+
+
+aws_access_key_id: na
+aws_secret_access_key: na
+
+
+django_secret_key: na
+
+run_django_syncdb: yes
+run_django_south_migration: yes
+run_django_collectstatic: yes

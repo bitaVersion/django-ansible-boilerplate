@@ -1,0 +1,1 @@
+{"virtualbox":{"/webapps/antest/django-ansible-boilerplate":{"guestpath":"/webapps/antest/django-ansible-boilerplate","hostpath":"/home/g/Consult/django-ansible-boilerplate","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/g/Consult/django-ansible-boilerplate/ansible","disabled":false}}}
